@@ -1,0 +1,126 @@
+ body {
+     font-family: "Roboto", sans-serif;
+     color: #434455;
+     background-color: #FFFFFF;
+ }
+
+ /* header */
+ .logo {
+     font-family: "Raleway", sans-serif;
+     font-weight: 700;
+     font-size: 18px;
+     line-height: 1.17;
+     letter-spacing: 0.03em;
+     text-transform: uppercase;
+     color: #4d5ae5;
+ }
+
+ .logo-studio {
+     color: #2e2f42;
+ }
+
+ .studio-list{
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 1.5;
+     letter-spacing: 0.02em;
+     color: #2e2f42;
+ }
+
+ .studio-list:hover,
+ .studio-list:focus {
+     color: #404bbf;
+ }
+
+.contact-info{
+    font-style: normal;
+}
+ .contacts {
+     font-size: 16px;
+     line-height: 1.5;
+     letter-spacing: 0.02em;
+     color: #434455;
+ }
+
+ .contacts:hover,
+ .contacts:focus {
+     color: #404bbf;
+ }
+
+ /* section 1 */
+ .firstsection {
+     background-color: #2e2f42;
+ }
+
+ .effective {
+     font-size: 56px;
+     line-height: 1.07;
+     text-align: center;
+     letter-spacing: 0.02em;
+     color: #ffffff;
+ }
+
+ .firstbutton {
+     background-color: #4D5AE5;
+     font-family: "Roboto", sans-serif;
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 1.5;
+     letter-spacing: 0.04em;
+     color: #FFFFFF;
+     cursor: pointer;
+ }
+
+ .firstbutton:hover,
+ .firstbutton:focus {
+     background-color: #404BBF;
+ }
+
+ /* section 2 */
+ 
+ 
+ .head {
+     font-weight: 500;
+     font-size: 20px;
+     line-height: 1.2;
+     letter-spacing: 0.02em;
+     color: #2e2f42;
+ }
+
+ .about {
+     font-size: 16px;
+     line-height: 1.5;
+     letter-spacing: 0.02em;
+     color: #434455;
+ }
+
+ /* section3 */
+ .section-three {
+     background-color: #F4F4FD;
+ }
+
+ .our-team {
+     font-size: 36px;
+     line-height: 1.11;
+     text-align: center;
+     letter-spacing: 0.02em;
+     text-transform: capitalize;
+     color: #2e2f42;
+ }
+
+ .sect-list {
+     background-color: #FFFFFF;
+ }
+
+ .footerr {
+     background-color: #2e2f42;
+ }
+
+ .last-p {
+     line-height: 1.5;
+     color: #f4f4fd;
+     letter-spacing: 0.02em;
+ }
+ .secondlogo{
+    color: #f4f4fd;
+ }
