@@ -63,7 +63,6 @@ body {
 
  .nav-menu{
     display: flex;
-    gap: 76px;
     align-items: center;
  }
  
@@ -95,9 +94,6 @@ padding-left: 0px;
      line-height: 1.5;
      letter-spacing: 0.02em;
      color: #2e2f42;
-     display: block;
-     padding: 24px 0;
-    
  }
 
  .studio-list:hover,
@@ -129,17 +125,14 @@ padding-left: 0px;
 
 /* -------title---------- */
  .main-title{
-    padding-top: 188px;
-        padding-bottom: 188px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 48px;
+    margin-bottom: 48px;
+    margin: 0 auto;
+
  }
  .firstsection {
      background-color: #2e2f42;
     padding: 188px 0;
+    
  }
 
  .effective {
@@ -149,6 +142,8 @@ padding-left: 0px;
      letter-spacing: 0.02em;
      color: #ffffff;
     max-width: 496px;
+    margin: 0 auto;
+    margin-bottom: 48px;
  }
 
  .mainbutton {
@@ -167,6 +162,7 @@ padding-left: 0px;
     background-color: #4d5ae5;
     border-radius: 4px;
     cursor: pointer;
+    margin: 0 auto;
  }
 
  .firstbutton:hover,
@@ -222,12 +218,7 @@ padding-left: 0px;
     padding: 120px 0;
  }
 
- .third-flex{
-display: flex;
-flex-direction: column;
-align-items: center;
-gap: 72px;
- }
+ 
 
  .head-second{
     font-weight: 500;
@@ -236,23 +227,18 @@ gap: 72px;
         letter-spacing: 0.02em;
         color: #2e2f42;
       margin-bottom: 8px;
+      margin-top: 32px;
     text-align: center;
+
  }
-.about-person{
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    align-items: center;
-    gap: 8px;
-    padding-bottom: 32px;
-    padding-top: 32px;
-}
+
 .about-job{
     font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
-    text-align: center;   
+    text-align: center; 
+    padding: 32px;  
 }
 
 .flex-team{
@@ -261,7 +247,7 @@ gap: 72px;
     justify-content: center;
     align-items: center;
     gap: 24px;
-    padding-bottom: 120px;
+     
 }
 
 .sect-list {
@@ -282,7 +268,7 @@ gap: 72px;
      letter-spacing: 0.02em;
      text-transform: capitalize;
      color: #2e2f42;
-     padding-top: 120px;
+     
     margin-bottom: 72px;
 
  }
@@ -297,8 +283,7 @@ gap: 72px;
     display: flex;
     justify-content: center;
         flex-direction: row;
-        align-items: center;
-        padding-bottom: 120px;
+        align-items: center;     
         column-gap: 24px;
         row-gap: 48px;
         flex-wrap: wrap;
@@ -310,10 +295,6 @@ gap: 72px;
     width: calc((100% - 48px) / 3);
 }
 .about-photo{
-    margin-top: 32px;
-    display: flex;
-    gap: 16px;
-    flex-direction: column;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
@@ -343,7 +324,7 @@ gap: 72px;
     flex-direction: column;
     gap: 17.5px;
     justify-content: center;
-    display: inline-block;
+    
 }
  .last-p {
      line-height: 1.5;
