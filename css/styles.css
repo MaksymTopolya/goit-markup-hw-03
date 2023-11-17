@@ -6,6 +6,8 @@ h1, h2, h3, h4, h5, h6, p{
 
 ul, ol{
     list-style-type: none;
+    padding-left: 0;
+    margin: 0;
 }
 
 a{
@@ -184,7 +186,6 @@ padding-left: 0px;
     gap: 24px;
 }
 .info-items{
-    display: flex;
     flex-direction: column;
     width: 264px;
     gap: 8px;
