@@ -71,6 +71,7 @@ display: flex;
 gap: 40px;
 padding-left: 0px;
  }
+
  .logo {
      font-family: "Raleway", sans-serif;
      font-weight: 700;
@@ -80,7 +81,7 @@ padding-left: 0px;
      text-transform: uppercase;
      color: #4d5ae5;
     margin-right: 76px;
-    padding: 24px 0;
+    
  }
 
  .logo-studio {
@@ -93,6 +94,7 @@ padding-left: 0px;
      line-height: 1.5;
      letter-spacing: 0.02em;
      color: #2e2f42;
+    padding: 24px 0;
  }
 
  .studio-list:hover,
