@@ -79,9 +79,8 @@ padding-left: 0px;
      letter-spacing: 0.03em;
      text-transform: uppercase;
      color: #4d5ae5;
-    padding-top: 25.5px;
-    padding-bottom: 25.5px;
-    margin-right: 76px
+    margin-right: 76px;
+    padding: 24px 0;
  }
 
  .logo-studio {
@@ -229,9 +228,10 @@ padding-left: 0px;
       margin-bottom: 8px;
       margin-top: 32px;
     text-align: center;
-
  }
-
+.about-person{
+    padding: 32px 0;
+}
 .about-job{
     font-size: 16px;
         line-height: 1.5;
