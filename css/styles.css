@@ -340,11 +340,10 @@ gap: 72px;
     }
  
 .footer-items{
-    display: flex;
     flex-direction: column;
     gap: 17.5px;
     justify-content: center;
-    
+    display: inline-block;
 }
  .last-p {
      line-height: 1.5;
